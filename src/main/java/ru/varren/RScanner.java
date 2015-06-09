@@ -1,6 +1,5 @@
 package ru.varren;
 
-import org.reflections.ReflectionUtils;
 import org.reflections.Reflections;
 import org.reflections.scanners.ResourcesScanner;
 import org.reflections.scanners.SubTypesScanner;
@@ -14,7 +13,7 @@ public class RScanner {
 
     public static void  main(String [] args) {
         // need to have this lib 'org.reflections:reflections:0.9.10'
-        // can download from here gist.github.com/hepin1989/5026900
+        // can download from here https://code.google.com/p/reflections/
 
         // if true will not look for methods declared in super class
         final boolean declaredInClass = false;
